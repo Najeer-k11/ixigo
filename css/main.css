@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container {
+  padding: 2% 5% 0% 5%;
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+}
+body .container .navbar {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .navbar h1 {
+  font-family: "Inter";
+  font-weight: 600;
+}
+body .container .navbar .nav {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+}
+body .container .navbar .nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+body .container .navbar .nav a:hover {
+  background-color: rgb(28, 45, 52);
+  color: white;
+  border-radius: 0;
+}
+body .container .navbar .sp {
+  width: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .navbar .sp .search {
+  color: black;
+}
+body .container .navbar .sp .profile {
+  color: black;
+}
+body .container .data {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 24px;
+  width: 100%;
+  padding: 20px;
+  height: calc(100% - 80px);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border: 1px solid white;
+  background: linear-gradient(rgba(250, 250, 250, 0.4), rgba(0, 0, 0, 0.2));
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-top: 13%;
+}
+body .container .data .paras {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .container .data .paras .big {
+  font-family: "Inter";
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+body .container .data .paras .small {
+  margin-top: 5px;
+  font-size: 12px;
+  font-family: "Inter";
+  color: white;
+  text-align: center;
+}
+body .container .data .tabs_data {
+  width: 100%;
+  height: 100%;
+}
+body .container .data .tabs_data .tabs {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+body .container .data .tabs_data .tabs a {
+  padding: 10px;
+  text-decoration: none;
+  background-color: white;
+  font-family: "Inter";
+  border-radius: 0;
+  color: black;
+}
+body .container .data .tabs_data .datadetails {
+  background-color: white;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0;
+  align-items: center;
+}
+body .container .data .tabs_data .datadetails .div {
+  padding: 20px;
+}
+body .container .data .tabs_data .datadetails .header {
+  font-family: "Inter";
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+body .container .data .tabs_data .datadetails .details {
+  font-family: "Inter";
+  font-size: 15px;
+  color: black;
+}
+body .container .data .tabs_data .datadetails .line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+  color: rgba(128, 128, 128, 0.488);
+  width: 2px;
+  border: 2px solid;
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */
